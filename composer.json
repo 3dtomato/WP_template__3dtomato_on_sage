@@ -1,0 +1,18 @@
+{
+  "name": "Tomato Wordpress 2",
+  "description": "",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tomas Hrda",
+      "email": "hrda@3dtomato.com"
+    }
+  ],
+  "require": {
+    "behat/behat": "v2.4.5",
+    "behat/mink": "v1.5.0",
+    "behat/mink-goutte-driver": "v1.0.9",
+    "behat/mink-selenium2-driver": "v1.1.0",
+    "behat/mink-extension": "v1.1.0"
+  }
+}

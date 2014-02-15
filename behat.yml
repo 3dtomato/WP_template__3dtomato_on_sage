@@ -1,0 +1,11 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://wp_br.dev/
+      javascript_session: 'selenium2'
+#      browser_name: firefox
+      browser_name: googlechrome
+      goutte: ~
+      selenium2:
+#        browser: 'firefox'
+        browser: 'chrome'
